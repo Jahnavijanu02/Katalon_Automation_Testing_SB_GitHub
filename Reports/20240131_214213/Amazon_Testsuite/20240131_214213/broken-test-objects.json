@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[12]/div/div/span/div/div/div[2]/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d concat(\"Women\" , \"\u0027\" , \"s Luna Cork Footbed Sandal With +Comfort\") or . \u003d concat(\"Women\" , \"\u0027\" , \"s Luna Cork Footbed Sandal With +Comfort\"))]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_214213/Amazon_Testsuite/20240131_214213/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort_customAttributes.png"
+    }
+  ]
+}

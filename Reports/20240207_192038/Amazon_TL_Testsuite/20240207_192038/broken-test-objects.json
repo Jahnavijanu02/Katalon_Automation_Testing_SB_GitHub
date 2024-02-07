@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List",
+      "brokenLocator": "//span[@id\u003d\u0027huc-view-your-list-button\u0027]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/span/span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240207_192038/Amazon_TL_Testsuite/20240207_192038/Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List_position.png"
+    }
+  ]
+}

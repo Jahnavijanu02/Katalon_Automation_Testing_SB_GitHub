@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite" time="521.5" tests="5" failures="1" errors="0">
+   <testsuite name="Amazon_TestSuite" tests="5" failures="1" errors="0" time="521.5" skipped="0" timestamp="06-02-2024T20:24:33" hostname="JANU - DESKTOP-J3VHVG2" id="Test Suites/Amazon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422"/>
+         <property name="logFiles" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231350366.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231387555.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231426920.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231463616.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231578567.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231657858.png"/>
+         <property name="hostName" value="JANU - DESKTOP-J3VHVG2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="8f7e0f7148abea153aa8717311714c3e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_Home_001" time="40.075" classname="Test Cases/TC_Amazon_Home_001" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:24:34 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_001: Test Cases/TC_Amazon_Home_001
+
+06-02-2024T20:24:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:24:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:24:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:24:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:24:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:24:42 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:24:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+06-02-2024T20:25:07 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+06-02-2024T20:25:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code"): Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:25:08 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:25:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:25:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_002" time="36.63" classname="Test Cases/TC_Amazon_Home_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Amazon_Home_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=121.0.6167.140)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 05b4659566e36c9a03d63bdc08cb173f&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[06-02-2024T20:27:07 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_Home_002: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05b4659566e36c9a03d63bdc08cb173f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+06-02-2024T20:27:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:27:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T20:27:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:27:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:27:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:27:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:27:11 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:27:11 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05b4659566e36c9a03d63bdc08cb173f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706628771709.run(Script1706628771709.groovy:24)
+	... 18 more
+)
+
+06-02-2024T20:27:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='nav-signin-tooltip']/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-02-2024T20:27:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'. Try using Self-healing.
+
+06-02-2024T20:27:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' was broken. Propose an alternative one: '//*[(text() = 'Sign in' or . = 'Sign in')]'.
+
+06-02-2024T20:27:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05b4659566e36c9a03d63bdc08cb173f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706628771709.run(Script1706628771709.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240206_202422\\Amazon_TestSuite\\20240206_202422\\1707231463616.png]]]]></system-out>
+         <system-err><![CDATA[06-02-2024T20:27:07 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_Home_002: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05b4659566e36c9a03d63bdc08cb173f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_003" time="78.3" classname="Test Cases/TC_Amazon_Home_003" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:27:43 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_003: Test Cases/TC_Amazon_Home_003
+
+06-02-2024T20:27:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:27:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T20:27:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:27:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:27:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:27:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:27:48 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:28:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:28:21 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:28:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:28:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:28:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:28:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=fashion-girls-intl-ship", true): All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+06-02-2024T20:28:31 - [MESSAGE][PASSED] - All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+06-02-2024T20:28:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "lipstick"): Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:28:33 - [MESSAGE][PASSED] - Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+06-02-2024T20:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+06-02-2024T20:28:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+06-02-2024T20:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+06-02-2024T20:28:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+06-02-2024T20:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+06-02-2024T20:29:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:29:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_004" time="52.33" classname="Test Cases/TC_Amazon_Home_004" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:30:58 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_004: Test Cases/TC_Amazon_Home_004
+
+06-02-2024T20:30:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:30:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T20:30:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:30:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:31:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:31:01 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/input_field-keywords"), "LABUUB"): Text 'LABUUB' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/input_field-keywords'
+
+06-02-2024T20:31:03 - [MESSAGE][PASSED] - Text 'LABUUB' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/input_field-keywords'
+
+06-02-2024T20:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/button_Continue shopping")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/button_Continue shopping' is clicked on
+
+06-02-2024T20:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/button_Continue shopping' is clicked on
+
+06-02-2024T20:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:31:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:31:19 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:31:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:31:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "sandals"): Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:31:29 - [MESSAGE][PASSED] - Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+06-02-2024T20:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+06-02-2024T20:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+06-02-2024T20:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+06-02-2024T20:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+06-02-2024T20:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+06-02-2024T20:31:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:31:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_005" time="84.851" classname="Test Cases/TC_Amazon_Home_005" status="PASSED">
+         <system-out><![CDATA[06-02-2024T20:31:50 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_005: Test Cases/TC_Amazon_Home_005
+
+06-02-2024T20:31:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2024T20:31:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T20:31:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T20:31:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2024T20:31:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:31:54 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+06-02-2024T20:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+06-02-2024T20:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:32:18 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_email'
+
+06-02-2024T20:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+06-02-2024T20:32:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:32:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_password'
+
+06-02-2024T20:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+06-02-2024T20:32:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+06-02-2024T20:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+06-02-2024T20:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+06-02-2024T20:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+06-02-2024T20:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+06-02-2024T20:33:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search']/div/div/div/span/div/div[4]/div/div/div/div/span/div/div/div[2]/div/h2/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-02-2024T20:33:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e'. Try using Self-healing.
+
+06-02-2024T20:33:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' was broken. Propose an alternative one: 'h2.a-size-mini.a-spacing-none.a-color-base.s-line-clamp-4 > a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal > span.a-size-base-plus.a-color-base.a-text-normal'.
+
+06-02-2024T20:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+06-02-2024T20:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+06-02-2024T20:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+06-02-2024T20:33:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States"), "Top reviews from the United States"): Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+06-02-2024T20:33:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+06-02-2024T20:33:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2024T20:33:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T20:24:33 - [TEST_SUITE][FAILED] - Amazon_TestSuite: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b726441578bddd890a7e6cb6584ccc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[06-02-2024T20:24:33 - [TEST_SUITE][FAILED] - Amazon_TestSuite: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707231262438.run(TempTestSuite1707231262438.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-J3VHVG2', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\JANU\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33b726441578bddd890a7e6cb6584ccc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite,Chrome 121.0.0.0,,,07-02-2024 20:33:59,07-02-2024 20:37:41,3m - 42.189s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_001,Chrome 121.0.0.0,,,07-02-2024 20:34:22,07-02-2024 20:34:48,25.765s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 20:34:22,07-02-2024 20:34:28,5.734s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,07-02-2024 20:34:29,07-02-2024 20:34:37,8.019s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 121.0.0.0,,,07-02-2024 20:34:37,07-02-2024 20:34:38,1.494s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,07-02-2024 20:34:38,07-02-2024 20:34:43,5.151s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 20:34:43,07-02-2024 20:34:48,4.665s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_002,Chrome 121.0.0.0,,,07-02-2024 20:34:48,07-02-2024 20:35:36,47.815s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 20:34:48,07-02-2024 20:34:53,5.186s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,07-02-2024 20:34:53,07-02-2024 20:35:30,36.385s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 20:35:30,07-02-2024 20:35:36,5.980s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_003,Chrome 121.0.0.0,,,07-02-2024 20:35:36,07-02-2024 20:36:27,51.557s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 20:35:36,07-02-2024 20:35:41,5.337s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=fashion-girls-intl-ship"", true)",Chrome 121.0.0.0,,,07-02-2024 20:35:41,07-02-2024 20:35:48,6.453s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""lipstick"")",Chrome 121.0.0.0,,,07-02-2024 20:35:48,07-02-2024 20:35:49,1.367s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,07-02-2024 20:35:49,07-02-2024 20:35:58,8.486s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image""))",Chrome 121.0.0.0,,,07-02-2024 20:35:58,07-02-2024 20:36:14,16.299s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist""))",Chrome 121.0.0.0,,,07-02-2024 20:36:14,07-02-2024 20:36:18,4.062s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List""))",Chrome 121.0.0.0,,,07-02-2024 20:36:18,07-02-2024 20:36:22,4.355s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 20:36:22,07-02-2024 20:36:27,4.894s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_004,Chrome 121.0.0.0,,,07-02-2024 20:36:27,07-02-2024 20:37:03,36.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 20:36:27,07-02-2024 20:36:33,5.242s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""sandals"")",Chrome 121.0.0.0,,,07-02-2024 20:36:33,07-02-2024 20:36:39,6.385s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,07-02-2024 20:36:39,07-02-2024 20:36:48,8.620s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort""))",Chrome 121.0.0.0,,,07-02-2024 20:36:48,07-02-2024 20:36:54,6.245s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4""))",Chrome 121.0.0.0,,,07-02-2024 20:36:54,07-02-2024 20:36:58,3.553s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 20:36:58,07-02-2024 20:37:03,5.637s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_005,Chrome 121.0.0.0,,,07-02-2024 20:37:03,07-02-2024 20:37:41,38.121s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 20:37:03,07-02-2024 20:37:08,5.152s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""))",Chrome 121.0.0.0,,,07-02-2024 20:37:09,07-02-2024 20:37:14,5.455s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her""))",Chrome 121.0.0.0,,,07-02-2024 20:37:14,07-02-2024 20:37:24,9.548s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e""))",Chrome 121.0.0.0,,,07-02-2024 20:37:24,07-02-2024 20:37:32,7.942s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings""))",Chrome 121.0.0.0,,,07-02-2024 20:37:32,07-02-2024 20:37:34,2.538s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States""), ""Top reviews from the United States"")",Chrome 121.0.0.0,,,07-02-2024 20:37:34,07-02-2024 20:37:36,2.064s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 20:37:36,07-02-2024 20:37:41,4.954s,PASSED

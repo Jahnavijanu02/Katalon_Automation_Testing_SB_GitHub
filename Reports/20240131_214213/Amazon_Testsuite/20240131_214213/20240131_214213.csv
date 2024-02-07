@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Testsuite,Chrome 121.0.0.0,,,31-01-2024 21:42:22,31-01-2024 21:47:54,5m - 32.745s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Home_001,Chrome 121.0.0.0,,,31-01-2024 21:42:22,31-01-2024 21:43:08,45.967s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 21:42:23,31-01-2024 21:42:28,4.476s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 21:42:28,31-01-2024 21:42:29,1.285s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 21:42:29,31-01-2024 21:43:02,32.820s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 121.0.0.0,,,31-01-2024 21:43:02,31-01-2024 21:43:03,1.262s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 21:43:03,31-01-2024 21:43:08,4.657s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 21:43:08,31-01-2024 21:43:08,0.509s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_002,Chrome 121.0.0.0,,,31-01-2024 21:43:08,31-01-2024 21:43:49,40.466s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 21:43:09,31-01-2024 21:43:10,1.645s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 21:43:10,31-01-2024 21:43:12,1.276s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,31-01-2024 21:43:12,31-01-2024 21:43:49,37.146s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Home_003,Chrome 121.0.0.0,,,31-01-2024 21:43:49,31-01-2024 21:45:24,1m - 34.855s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 21:43:49,31-01-2024 21:43:51,2.268s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 21:43:51,31-01-2024 21:43:53,1.853s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 21:43:53,31-01-2024 21:44:23,29.405s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_email""), ""gummallajahnavi2002@gmail.com"")",Chrome 121.0.0.0,,,31-01-2024 21:44:23,31-01-2024 21:44:25,2.078s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 21:44:25,31-01-2024 21:44:27,1.947s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/input_password""), ""RY21l9ks7eId//V36v5VDA=="")",Chrome 121.0.0.0,,,31-01-2024 21:44:27,31-01-2024 21:44:28,1.151s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 21:44:28,31-01-2024 21:44:28,0.701s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=fashion-girls-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 21:44:28,31-01-2024 21:45:01,32.110s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""lipstick"")",Chrome 121.0.0.0,,,31-01-2024 21:45:01,31-01-2024 21:45:02,1.737s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 21:45:02,31-01-2024 21:45:10,7.844s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image""))",Chrome 121.0.0.0,,,31-01-2024 21:45:10,31-01-2024 21:45:17,6.651s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist""))",Chrome 121.0.0.0,,,31-01-2024 21:45:17,31-01-2024 21:45:19,2.575s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List""))",Chrome 121.0.0.0,,,31-01-2024 21:45:19,31-01-2024 21:45:23,3.667s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 21:45:23,31-01-2024 21:45:24,0.585s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_004,Chrome 121.0.0.0,,,31-01-2024 21:45:24,31-01-2024 21:46:58,1m - 34.757s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 21:45:24,31-01-2024 21:45:25,1.311s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 21:45:25,31-01-2024 21:45:27,1.388s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/input_field-keywords""), ""LABUUB"")",Chrome 121.0.0.0,,,31-01-2024 21:45:27,31-01-2024 21:45:28,1.127s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 121.0.0.0,,,31-01-2024 21:45:28,31-01-2024 21:45:28,0.715s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 21:45:28,31-01-2024 21:45:59,30.534s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_email""), ""gummallajahnavi2002@gmail.com"")",Chrome 121.0.0.0,,,31-01-2024 21:45:59,31-01-2024 21:46:00,1.459s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 21:46:00,31-01-2024 21:46:02,1.477s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password""), ""RY21l9ks7eId//V36v5VDA=="")",Chrome 121.0.0.0,,,31-01-2024 21:46:02,31-01-2024 21:46:03,1.079s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 21:46:03,31-01-2024 21:46:04,0.621s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""sandals"")",Chrome 121.0.0.0,,,31-01-2024 21:46:04,31-01-2024 21:46:10,6.209s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 21:46:10,31-01-2024 21:46:17,7.341s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort""))",Chrome 121.0.0.0,,,31-01-2024 21:46:17,31-01-2024 21:46:55,38.251s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4""))",Chrome 121.0.0.0,,,31-01-2024 21:46:55,31-01-2024 21:46:58,2.530s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 21:46:58,31-01-2024 21:46:58,0.494s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_005,Chrome 121.0.0.0,,,31-01-2024 21:46:58,31-01-2024 21:47:54,56.034s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 21:46:59,31-01-2024 21:47:00,1.537s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 21:47:00,31-01-2024 21:47:02,1.888s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 21:47:02,31-01-2024 21:47:31,29.044s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_email""), ""gummallajahnavi2002@gmail.com"")",Chrome 121.0.0.0,,,31-01-2024 21:47:31,31-01-2024 21:47:33,1.659s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 21:47:33,31-01-2024 21:47:35,1.802s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/input_password""), ""RY21l9ks7eId//V36v5VDA=="")",Chrome 121.0.0.0,,,31-01-2024 21:47:35,31-01-2024 21:47:36,1.103s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 21:47:36,31-01-2024 21:47:36,0.562s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""))",Chrome 121.0.0.0,,,31-01-2024 21:47:36,31-01-2024 21:47:42,5.303s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her""))",Chrome 121.0.0.0,,,31-01-2024 21:47:42,31-01-2024 21:47:45,3.792s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e""))",Chrome 121.0.0.0,,,31-01-2024 21:47:45,31-01-2024 21:47:51,5.640s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings""))",Chrome 121.0.0.0,,,31-01-2024 21:47:51,31-01-2024 21:47:52,1.105s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States""), ""Top reviews from the United States"")",Chrome 121.0.0.0,,,31-01-2024 21:47:52,31-01-2024 21:47:54,1.825s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 21:47:54,31-01-2024 21:47:54,0.517s,PASSED

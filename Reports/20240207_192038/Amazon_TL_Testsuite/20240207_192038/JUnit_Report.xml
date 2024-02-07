@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TL_Testsuite" time="76.31" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TL_Testsuite" tests="1" failures="0" errors="0" time="76.31" skipped="0" timestamp="07-02-2024T19:20:50" hostname="JANU - DESKTOP-J3VHVG2" id="Test Suites/Amazon_TL_Testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_192038\\Amazon_TL_Testsuite\\20240207_192038"/>
+         <property name="logFiles" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_192038\\Amazon_TL_Testsuite\\20240207_192038\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JANU - DESKTOP-J3VHVG2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="8467706d19e934adf0789d20ccb396ac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testcase using TestListener/TC_TL_Wishlist" time="52.703" classname="Test Cases/Testcase using TestListener/TC_TL_Wishlist" status="PASSED">
+         <system-out><![CDATA[07-02-2024T19:21:13 - [TEST_CASE][PASSED] - Test Cases/Testcase using TestListener/TC_TL_Wishlist: Test Cases/Testcase using TestListener/TC_TL_Wishlist
+
+07-02-2024T19:21:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:21:15 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:21:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:21:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code"): Text 'da vinci code' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:21:25 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List' is clicked on
+
+07-02-2024T19:22:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='huc-view-your-list-button']/span/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T19:22:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List'. Try using Self-healing.
+
+07-02-2024T19:22:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List' was broken. Propose an alternative one: '//div[3]/div/div/div/div/span/span/a'.
+
+07-02-2024T19:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List' is clicked on
+
+07-02-2024T19:22:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:22:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T19:20:50 - [TEST_SUITE][PASSED] - Amazon_TL_Testsuite: Test Cases/Testcase using TestListener/TC_TL_Wishlist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

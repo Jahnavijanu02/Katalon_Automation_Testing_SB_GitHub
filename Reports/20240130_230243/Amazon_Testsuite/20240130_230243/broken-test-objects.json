@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240130_230243/Amazon_Testsuite/20240130_230243/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240130_230243/Amazon_Testsuite/20240130_230243/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password_position.png"
+    }
+  ]
+}

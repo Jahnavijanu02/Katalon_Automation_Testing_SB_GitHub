@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite" time="331.587" tests="5" failures="1" errors="0">
+   <testsuite name="Amazon_TestSuite" tests="5" failures="1" errors="0" time="331.587" skipped="0" timestamp="07-02-2024T19:35:25" hostname="JANU - DESKTOP-J3VHVG2" id="Test Suites/Amazon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513"/>
+         <property name="logFiles" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\1707314813878.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\1707314857737.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\1707314903260.png, C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\1707314947300.png"/>
+         <property name="hostName" value="JANU - DESKTOP-J3VHVG2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="37cae0a81b62987f5d15dd49851345cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_Home_001" time="24.693" classname="Test Cases/TC_Amazon_Home_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T19:35:48 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_001: Test Cases/TC_Amazon_Home_001
+
+07-02-2024T19:35:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:35:50 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:35:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:35:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:35:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T19:36:01 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T19:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code"): Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:36:02 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:36:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_002" time="43.946" classname="Test Cases/TC_Amazon_Home_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Amazon_Home_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[07-02-2024T19:38:26 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_Home_002: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+07-02-2024T19:38:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:38:28 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:38:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:38:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:38:31 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in")): Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706628771709.run(Script1706628771709.groovy:24)
+	... 18 more
+)
+
+07-02-2024T19:39:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='nav-signin-tooltip']/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T19:39:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'. Try using Self-healing.
+
+07-02-2024T19:39:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Sign in' or . = 'Sign in')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T19:39:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='nav-signin-tooltip']/a/span'.
+
+07-02-2024T19:39:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[14]/div[2]/a/span'.
+
+07-02-2024T19:39:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Sign in' or . = 'Sign in')]'.
+
+07-02-2024T19:39:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Sign in' or . = 'Sign in')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T19:39:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #nav-signin-tooltip > a.nav-action-signin-button > span.nav-action-inner'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T19:39:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1706628771709.run(Script1706628771709.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_193513\\Amazon_TestSuite\\20240207_193513\\1707314947300.png]]
+
+07-02-2024T19:39:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[07-02-2024T19:38:26 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_Home_002: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_003" time="39.035" classname="Test Cases/TC_Amazon_Home_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T19:39:10 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_003: Test Cases/TC_Amazon_Home_003
+
+07-02-2024T19:39:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:39:12 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:39:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:39:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=fashion-girls-intl-ship", true): All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T19:39:21 - [MESSAGE][PASSED] - All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T19:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "lipstick"): Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:39:22 - [MESSAGE][PASSED] - Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+07-02-2024T19:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+07-02-2024T19:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+07-02-2024T19:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+07-02-2024T19:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+07-02-2024T19:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+07-02-2024T19:39:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_004" time="29.897" classname="Test Cases/TC_Amazon_Home_004" status="PASSED">
+         <system-out><![CDATA[07-02-2024T19:39:49 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_004: Test Cases/TC_Amazon_Home_004
+
+07-02-2024T19:39:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:39:51 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:39:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:39:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:39:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "sandals"): Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:39:59 - [MESSAGE][PASSED] - Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T19:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T19:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+07-02-2024T19:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+07-02-2024T19:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+07-02-2024T19:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+07-02-2024T19:40:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:40:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_005" time="37.523" classname="Test Cases/TC_Amazon_Home_005" status="PASSED">
+         <system-out><![CDATA[07-02-2024T19:40:19 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_005: Test Cases/TC_Amazon_Home_005
+
+07-02-2024T19:40:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:40:21 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T19:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T19:40:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:40:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T19:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T19:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+07-02-2024T19:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+07-02-2024T19:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+07-02-2024T19:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+07-02-2024T19:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+07-02-2024T19:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+07-02-2024T19:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+07-02-2024T19:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+07-02-2024T19:40:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States"), "Top reviews from the United States"): Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+07-02-2024T19:40:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+07-02-2024T19:40:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T19:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T19:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T19:35:25 - [TEST_SUITE][FAILED] - Amazon_TestSuite: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[07-02-2024T19:35:25 - [TEST_SUITE][FAILED] - Amazon_TestSuite: Test Cases/TC_Amazon_Home_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_Amazon_Home_002.run(TC_Amazon_Home_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707314713988.run(TempTestSuite1707314713988.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in' located by '//div[@id='nav-signin-tooltip']/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

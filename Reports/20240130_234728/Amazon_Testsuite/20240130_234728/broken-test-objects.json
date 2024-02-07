@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Sign in\u0027 or . \u003d \u0027Sign in\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[4]/div/div/div/div/span/div/div/div[2]/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "h2.a-size-mini.a-spacing-none.a-color-base.s-line-clamp-4 \u003e a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal \u003e span.a-size-base-plus.a-color-base.a-text-normal",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240130_234728/Amazon_Testsuite/20240130_234728/Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e_CSS.png"
+    }
+  ]
+}

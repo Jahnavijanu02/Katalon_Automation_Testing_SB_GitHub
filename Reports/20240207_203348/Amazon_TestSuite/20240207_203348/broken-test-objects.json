@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240207_203348/Amazon_TestSuite/20240207_203348/Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit_position.png"
+    }
+  ]
+}

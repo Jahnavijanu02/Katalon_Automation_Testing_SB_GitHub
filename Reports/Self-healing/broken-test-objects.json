@@ -1,3 +1,144 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon Sign-In/input_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  renee perfume/span_Rihanna Riri Eau De Parfum Spray for W_0ba48b",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[2]/div/div/span/div/div/div[2]/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h2/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  renee perfume/span_Rihanna Riri Eau De Parfum Spray for W_0ba48b_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[12]/div/div/span/div/div/div[2]/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d concat(\"Women\" , \"\u0027\" , \"s Luna Cork Footbed Sandal With +Comfort\") or . \u003d concat(\"Women\" , \"\u0027\" , \"s Luna Cork Footbed Sandal With +Comfort\"))]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Sign in\u0027 or . \u003d \u0027Sign in\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[4]/div/div/div/div/span/div/div/div[2]/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "h2.a-size-mini.a-spacing-none.a-color-base.s-line-clamp-4 \u003e a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal \u003e span.a-size-base-plus.a-color-base.a-text-normal",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in",
+      "brokenLocator": "//span[@id\u003d\u0027nav-link-accountList-nav-line-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id \u003d \u0027nav-link-accountList-nav-line-1\u0027 and (text() \u003d \u0027Hello, sign in\u0027 or . \u003d \u0027Hello, sign in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com/input_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027captchacharacters\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Validation_Amazon_Category_Excel_001_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement",
+      "brokenLocator": "//div[@id\u003d\u0027nav-search-dropdown-card\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Validation_Amazon_Category_Excel_001_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com Shopping Cart/span_The Women A Novel",
+      "brokenLocator": "//div[@id\u003d\u0027sc-active-8a3b8c51-7020-4d3e-8646-6ea3b7ffbc80\u0027]/div[4]/div/div[3]/ul/li/span/a/span/span/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027The Women: A Novel\u0027 or . \u003d \u0027The Women: A Novel\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com Shopping Cart/span_The Women A Novel_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List",
+      "brokenLocator": "//span[@id\u003d\u0027huc-view-your-list-button\u0027]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/span/span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_TL_Wishlist_OR/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/input_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit_position.png"
+    }
+  ]
 }

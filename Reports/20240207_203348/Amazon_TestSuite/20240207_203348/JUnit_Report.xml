@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite" time="222.189" tests="5" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite" tests="5" failures="0" errors="0" time="222.189" skipped="0" timestamp="07-02-2024T20:33:59" hostname="JANU - DESKTOP-J3VHVG2" id="Test Suites/Amazon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_203348\\Amazon_TestSuite\\20240207_203348"/>
+         <property name="logFiles" value="C:\\Users\\JANU\\git\\Katalon_Automation_Testing_SB_GitHub\\Reports\\20240207_203348\\Amazon_TestSuite\\20240207_203348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JANU - DESKTOP-J3VHVG2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="194a7452c3818e61522b30e23dec7324"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_Home_001" time="25.765" classname="Test Cases/TC_Amazon_Home_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T20:34:22 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_001: Test Cases/TC_Amazon_Home_001
+
+07-02-2024T20:34:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:34:24 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:34:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:34:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T20:34:37 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T20:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code"): Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:34:38 - [MESSAGE][PASSED] - Text 'da vinci code' is set on object 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:34:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_002" time="47.815" classname="Test Cases/TC_Amazon_Home_002" status="PASSED">
+         <system-out><![CDATA[07-02-2024T20:34:48 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_002: Test Cases/TC_Amazon_Home_002
+
+07-02-2024T20:34:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:34:50 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:34:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:34:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:35:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='signInSubmit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T20:35:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit'. Try using Self-healing.
+
+07-02-2024T20:35:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='signInSubmit']'.
+
+07-02-2024T20:35:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@id='auth-signin-button']/span/input'.
+
+07-02-2024T20:35:26 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//span/input'.
+
+07-02-2024T20:35:26 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/JANU/git/Katalon_Automation_Testing_SB_GitHub/Reports/Self-healing/Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit_position.png
+
+07-02-2024T20:35:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit' was broken. Propose an alternative one: '//span/input'.
+
+07-02-2024T20:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:35:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_003" time="51.557" classname="Test Cases/TC_Amazon_Home_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T20:35:36 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_003: Test Cases/TC_Amazon_Home_003
+
+07-02-2024T20:35:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:35:37 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:35:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:35:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:35:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=fashion-girls-intl-ship", true): All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T20:35:48 - [MESSAGE][PASSED] - All options with value 'search-alias=fashion-girls-intl-ship' are selected in object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+07-02-2024T20:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "lipstick"): Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:35:49 - [MESSAGE][PASSED] - Text 'lipstick' is set on object 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+07-02-2024T20:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  lipstick/img_s-image' is clicked on
+
+07-02-2024T20:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+07-02-2024T20:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/input_submit.add-to-registry.wishlist' is clicked on
+
+07-02-2024T20:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List")): Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+07-02-2024T20:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  LOreal Paris Makeup Colour_cd333f/a_View Your List' is clicked on
+
+07-02-2024T20:36:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_004" time="36.001" classname="Test Cases/TC_Amazon_Home_004" status="PASSED">
+         <system-out><![CDATA[07-02-2024T20:36:27 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_004: Test Cases/TC_Amazon_Home_004
+
+07-02-2024T20:36:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:36:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:36:29 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:36:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:36:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "sandals"): Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:36:39 - [MESSAGE][PASSED] - Text 'sandals' is set on object 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+07-02-2024T20:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+07-02-2024T20:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+07-02-2024T20:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sandals/span_Womens Luna Cork Footbed Sandal With Comfort' is clicked on
+
+07-02-2024T20:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4")): Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+07-02-2024T20:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/a_2                                        _15cda4' is clicked on
+
+07-02-2024T20:36:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_Home_005" time="38.121" classname="Test Cases/TC_Amazon_Home_005" status="PASSED">
+         <system-out><![CDATA[07-02-2024T20:37:03 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Home_005: Test Cases/TC_Amazon_Home_005
+
+07-02-2024T20:37:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:37:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email"), "gummallajahnavi2002@gmail.com"): Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:37:05 - [MESSAGE][PASSED] - Text 'gummallajahnavi2002@gmail.com' is set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_email'
+
+07-02-2024T20:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+07-02-2024T20:37:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password"), "RY21l9ks7eId//V36v5VDA=="): Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:37:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/input_password'
+
+07-02-2024T20:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+07-02-2024T20:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+07-02-2024T20:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords' is clicked on
+
+07-02-2024T20:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+07-02-2024T20:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_valentines day gifts for her' is clicked on
+
+07-02-2024T20:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+07-02-2024T20:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  valentines day gifts for her/span_ASELFAD Preserved Real Red Rose with I_147d3e' is clicked on
+
+07-02-2024T20:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings")): Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+07-02-2024T20:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/span_5,687 ratings' is clicked on
+
+07-02-2024T20:37:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States"), "Top reviews from the United States"): Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+07-02-2024T20:37:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com ASELFAD Preserved Real Red _9e0ee3/h3_Top reviews from the United States' are matched.
+
+07-02-2024T20:37:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/span_All' is clicked on
+
+07-02-2024T20:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on
+
+07-02-2024T20:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Wishlist_OR/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T20:33:59 - [TEST_SUITE][PASSED] - Amazon_TestSuite: Test Cases/TC_Amazon_Home_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
